@@ -33,4 +33,7 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
     implementation 'com.google.android.material:material:1.0.0'
+
+    //LIBRERIA DE PDF
+    implementation 'com.itextpdf:itextg:5.5.10'
 }

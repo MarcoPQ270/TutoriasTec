@@ -24,13 +24,14 @@
 
                 <com.google.android.material.textfield.TextInputEditText
 
+                    android:id="@+id/edtnombre"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_action_nombre"
                     android:hint="Nombre del alumno"
                     android:inputType="text"
-                    android:drawableLeft="@drawable/ic_action_nombre"
                     android:maxLength="30"
-                    android:singleLine="true"/>
+                    android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -41,13 +42,14 @@
 
                 <com.google.android.material.textfield.TextInputEditText
 
+                    android:id="@+id/edtgradoygrupo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Grado y grupo"
-                    android:inputType="text"
                     android:drawableLeft="@drawable/ic_action_grado"
+                    android:hint="Semestre"
+                    android:inputType="text"
                     android:maxLength="2"
-                    android:singleLine="true"/>
+                    android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -58,13 +60,14 @@
 
                 <com.google.android.material.textfield.TextInputEditText
 
+                    android:id="@+id/edtfecha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_action_fecha"
                     android:hint="Fecha"
                     android:inputType="datetime"
-                    android:drawableLeft="@drawable/ic_action_fecha"
                     android:maxLength="10"
-                    android:singleLine="true"/>
+                    android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -75,13 +78,14 @@
 
                 <com.google.android.material.textfield.TextInputEditText
 
+                    android:id="@+id/edtlugar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_action_lugar"
                     android:hint="Lugar de tutoria"
                     android:inputType="text"
-                    android:drawableLeft="@drawable/ic_action_lugar"
                     android:maxLength="30"
-                    android:singleLine="true"/>
+                    android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -94,11 +98,12 @@
 
                 <com.google.android.material.textfield.TextInputEditText
 
+                    android:id="@+id/edtsugerencia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_action_problem"
                     android:hint="Sugerencias del tutor "
-                    android:inputType="text"
-                    android:drawableLeft="@drawable/ic_action_problem"/>
+                    android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -109,11 +114,12 @@
 
                 <com.google.android.material.textfield.TextInputEditText
 
+                    android:id="@+id/edttemas"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_action_them"
                     android:hint="Temas abordados "
-                    android:inputType="text"
-                    android:drawableLeft="@drawable/ic_action_them"/>
+                    android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -124,11 +130,12 @@
 
                 <com.google.android.material.textfield.TextInputEditText
 
+                    android:id="@+id/edtcompromisos"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_action_compro"
                     android:hint="Compromisos del alumno"
-                    android:inputType="text"
-                    android:drawableLeft="@drawable/ic_action_compro"/>
+                    android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -139,11 +146,12 @@
 
                 <com.google.android.material.textfield.TextInputEditText
 
+                    android:id="@+id/edtobser"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_action_obser"
                     android:hint="Observaciones"
-                    android:inputType="text"
-                    android:drawableLeft="@drawable/ic_action_obser"/>
+                    android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -154,11 +162,11 @@
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Enviar reporte"
-                android:textColor="#ffffff"
-                android:onClick="enviarrv"
                 android:background="@color/primary"
                 android:drawableRight="@drawable/ic_action_send"
+                android:onClick="enviarr"
+                android:text="Enviar reporte"
+                android:textColor="#ffffff"
                 tools:layout_editor_absoluteX="169dp"
                 tools:layout_editor_absoluteY="257dp" />
         </LinearLayout>
