@@ -1,0 +1,167 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="205dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                tools:layout_editor_absoluteY="656dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombre del alumno"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/ic_action_nombre"
+                    android:maxLength="30"
+                    android:singleLine="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="205dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                tools:layout_editor_absoluteY="656dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Grado y grupo"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/ic_action_grado"
+                    android:maxLength="2"
+                    android:singleLine="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="205dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                tools:layout_editor_absoluteY="656dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Fecha"
+                    android:inputType="datetime"
+                    android:drawableLeft="@drawable/ic_action_fecha"
+                    android:maxLength="10"
+                    android:singleLine="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="205dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                tools:layout_editor_absoluteY="656dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Lugar de tutoria"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/ic_action_lugar"
+                    android:maxLength="30"
+                    android:singleLine="true"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="205dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                tools:layout_editor_absoluteY="656dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Sugerencias del tutor "
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/ic_action_problem"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="205dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                tools:layout_editor_absoluteY="656dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Temas abordados "
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/ic_action_them"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="205dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                tools:layout_editor_absoluteY="656dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Compromisos del alumno"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/ic_action_compro"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="205dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                tools:layout_editor_absoluteY="656dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Observaciones"
+                    android:inputType="text"
+                    android:drawableLeft="@drawable/ic_action_obser"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enviar reporte"
+                android:textColor="#ffffff"
+                android:onClick="enviarrv"
+                android:background="@color/primary"
+                android:drawableRight="@drawable/ic_action_send"
+                tools:layout_editor_absoluteX="169dp"
+                tools:layout_editor_absoluteY="257dp" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
